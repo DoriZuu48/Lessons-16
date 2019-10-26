@@ -1,0 +1,26 @@
+html, body {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 0 1 auto;
+    margin: 0;
+    min-height: 100vh;
+    padding-left: 100px;
+    width: 1100px;
+  }
+
+.social{
+   
+    &__icons{
+        list-style: none;
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0.5em 1em;
+        
+        justify-content: center;
+        
+        
+    }
+    &__media{
+        text-align: center;
+    }
+}
